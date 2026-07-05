@@ -1,0 +1,87 @@
+html, body {
+    background-color: #05070c !important;
+    color: #8a9bb4 !important;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+.dash-graph,
+.js-plotly-plot,
+.plotly,
+.plot-container,
+.svg-container {
+    background-color: transparent !important;
+    background: transparent !important;
+}
+.main-svg {
+    background: transparent !important;
+    background-color: transparent !important;
+}
+.js-plotly-plot .plotly .bg {
+    fill: transparent !important;
+}
+.dash-graph > div,
+.dash-graph > div > div {
+    background-color: transparent !important;
+    background: transparent !important;
+}
+.dash-loading-callback,
+._dash-loading,
+._dash-loading-callback {
+    background-color: transparent !important;
+}
+.modebar {
+    display: none !important;
+}
+#anomaly-timeline-graph .js-plotly-plot,
+#anomaly-timeline-graph .plotly,
+#anomaly-timeline-graph .plot-container {
+    background-color: #090d16 !important;
+}
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+::-webkit-scrollbar-track {
+    background: #05070c;
+}
+::-webkit-scrollbar-thumb {
+    background: #1e2c42;
+    border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #2a3f5e;
+}
+.dash-radioitems label,
+.dash-checklist label {
+    color: #cdd6e4 !important;
+    font-size: 10px !important;
+}
+@keyframes pulse {
+    0%   { box-shadow: 0 0 0 0 rgba(210, 126, 31, 0.6); }
+    70%  { box-shadow: 0 0 0 8px rgba(210, 126, 31, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(210, 126, 31, 0); }
+}
+
+#advisory-dot {
+    animation: pulse 2s infinite;
+}
+#spark-vibration .dash-graph,
+#spark-egt .dash-graph,
+#spark-oil .dash-graph,
+#spark-hydraulic .dash-graph,
+#spark-stress .dash-graph {
+    background: transparent !important;
+    background-color: transparent !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+#spark-vibration .js-plotly-plot,
+#spark-egt .js-plotly-plot,
+#spark-oil .js-plotly-plot,
+#spark-hydraulic .js-plotly-plot,
+#spark-stress .js-plotly-plot {
+    height: 32px !important;
+    max-height: 32px !important;
+    background: transparent !important;
+}
